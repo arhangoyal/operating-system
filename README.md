@@ -38,3 +38,8 @@ Starter code: boots us into protected mode, sets up the GDT, LDT, and initial TS
 | `fish` | Run [fish](/fsdir/fish) animation |
 | `pingpong` | Run [pingpong](/fsdir/pingpong) animation |
 | `play <audiofile>` | Play audio file. Note: This does not work with a Docker setup on Mac. Will need QEMU on Windows or a Windows emulator/double-boot on Mac |
+
+#### Useful Links
+- [OSDev](https://wiki.osdev.org/Expanded_Main_Page)
+- [QEMU](https://www.qemu.org/download/)
+- [SoundBlaster](https://wiki.osdev.org/Sound_Blaster_16)
