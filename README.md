@@ -8,7 +8,8 @@ Starter code: boots us into protected mode, sets up the GDT, LDT, and initial TS
 - Basic paging support for tasks
 - Separate 4 MB pages for the kernel and applications
 - Initialized devices
-- Wrote the system call interface along with ten system calls
+- Designed file system. See [File System Design](/file_sys_design.png). Simultaneous opening of upto 8 files including `stdin` and `stdout` supported
+- Wrote the system call interface along with ten system calls ([sys_calls.c](/student-distrib/sys_calls.c)): `halt`, `execute`, `read`, `write`, `open`, `close`, `getargs`, `vidmap`, `set_handler`, `sigreturn`
 - Provided support for six tasks from program images in the file system which interface with the kernel via system calls
 - Multiple terminals (3). Up to 6 processes are supported.
 - Round-robin scheduling for processes
